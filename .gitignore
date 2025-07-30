@@ -1,0 +1,29 @@
+# Ignorar archivos temporales de Jupyter y checkpoints
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Ignorar entornos virtuales si usas uno
+venv/
+env/
+
+# Ignorar datos grandes
+data/
+*.zip
+*.tar.gz
+
+# Ignorar archivos temporales o del sistema
+.DS_Store
+*.swp
+
+# Ignorar archivos de salida
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+*.log
+
+# Configuración personal
+*.vscode/
